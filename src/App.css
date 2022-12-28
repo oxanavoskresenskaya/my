@@ -1,3 +1,6 @@
+body{
+    background-color: #D8d61a;
+}
 .container {
     display: flex;
     position: relative;
@@ -48,6 +51,9 @@ ul {
     border-radius: 20px;
     font-family: 'Balsamiq Sans', cursive;
 }
+.crossed {
+    text-decoration: line-through;
+}
  @media all and (max-width: 1000px) {
     .container-my-list {
         right: 50px;
@@ -79,5 +85,6 @@ input {
 }
  button {
     width: 85%;
+    background-color: #92f0cc;
  }
 }
